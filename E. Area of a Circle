@@ -1,0 +1,14 @@
+#include <iostream>
+#include<iomanip>  //you should import this library
+using namespace std;
+int main()
+{
+       double a=3.141592653;
+       double R;
+       cin>>R;
+       
+       double s= R*R;
+       cout<<fixed <<setprecision(9)<<a*s<<endl;
+       
+       return 0;
+}
