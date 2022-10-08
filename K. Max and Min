@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+       long long a,b,c;
+       long long ma,mi;
+       cin>>a>>b>>c;
+       ma=max(a,b);  //max and min functions take two parametars oly
+       ma=max(ma,c); // so that we make it in two lines to make sure that take all numbers
+       mi=min(a,b);
+       mi=min(mi,c);
+       cout<<mi<<" "<<ma<<endl;
+
+       return 0;
+}
