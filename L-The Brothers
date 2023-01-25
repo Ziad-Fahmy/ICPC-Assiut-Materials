@@ -1,0 +1,15 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string fir1,sec1,fir2,sec2;
+    cin>>fir1>>sec1>>fir2>>sec2;
+ 
+    if(sec1 == sec2){
+        cout<<"ARE Brothers"<<endl;
+    }
+    else{
+        cout<<"NOT"<<endl;
+    }
+}
