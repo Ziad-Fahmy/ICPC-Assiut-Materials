@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    char op,eq;
+    cin>>a>>op>>b>>eq>>c;
+
+
+    switch (op)
+    {
+
+    case '+': if(a+b == c) cout<<"Yes";else cout<<a+b;break;
+    case '-': if(a-b == c) cout<<"Yes";else cout<<a-b;break;
+    case '*': if(a*b == c) cout<<"Yes";else cout<<a*b;break;
+
+    default:
+        break;
+    }
+}
