@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+int main()
+{
+    string a,b;cin>>a;
+
+    // reverse(a.begin(),a.end());
+
+    for(int i=a.size()-1;i>=0;i--)
+    {
+        b+=a[i];
+    }
+
+    int a1,b2;
+    a1=stoi(a);
+    b2=stoi(b);
+    cout<<b2<<endl;
+    if(a1==b2)cout<<"YES"; 
+    else cout<<"NO";
+}
