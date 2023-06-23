@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>                 //we can using it to get floor, ceil and round easly
+using namespace std;
+int main(){
+
+    double a,b; cin>>a>>b;
+    double d=(a/b);
+
+    cout<<"floor "<<a<<" / "<<b<<" = "<<floor(d)<<endl;;
+    cout<<"ceil "<<a<<" / "<<b<<" = "<<ceil(d)<<endl;
+    cout<<"round "<<a<<" / "<<b<<" = "<<round(d);
+
+}
