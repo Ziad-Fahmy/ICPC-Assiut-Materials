@@ -18,8 +18,18 @@ int main()
     for(int i=0;i<n;i++) cout<<arr[i]<<" ";
 
 }
+
+
+
+
+
 /*
 another solution
+
+
+
+
+
 #include<iostream>
 #include <algorithm>  //for using reverse
 #include <vector>       //for usinf vector 
