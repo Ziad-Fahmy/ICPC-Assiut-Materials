@@ -50,7 +50,7 @@ int main()
         if(s[i]==x[c]) c++;
     }
 
-    if(c==5)
+    if(c==5)   //num of char of "hello"
     {
         cout<<"YES"<<endl;
     }
