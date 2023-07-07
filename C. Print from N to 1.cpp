@@ -1,14 +1,21 @@
+
 #include<iostream>
 using namespace std;
+
+void solve(int n)
+{
+    if(n==0) return;
+
+    cout<<n;
+    if(n==1)return;
+    else cout<<" ";
+
+    solve(n-1);
+}
+
+
 int main()
 {
     int n;cin>>n;
-
-    for(int i=n;i>=1;i--) 
-    {
-        cout<<i;
-
-        if(i==1) break;
-        else cout<<" ";
-    }
+    solve(n);
 }
